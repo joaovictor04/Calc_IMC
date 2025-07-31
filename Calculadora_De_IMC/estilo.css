@@ -1,0 +1,110 @@
+* { /* CSS RESET*/
+    margin: 0;
+    padding: 0;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.containerPrincipal {
+    display: inline-block;
+
+    background-color: rgba(113, 255, 243, 0.534);    
+
+    border: 5px solid black;
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.resultado {
+    display: flex;
+
+    border: 2px solid black;
+    width: 90%;
+    height: 40px;
+
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+    background-color: azure;
+}
+
+.resultadoValor {
+    text-align: left;
+    font-size: 30px;
+}
+
+.containerEsquerdo { /*Area do peso*/
+    display: inline-block;
+
+    border: 2px solid black;
+    width: 40%;
+    height: 200px;
+}
+
+.containerDireito { /*Area da altura*/
+    display: inline-block;
+
+    border: 2px solid black;
+    width: 40%;
+    height: 200px;
+}
+
+button {
+    background-color: azure;
+
+    font-size: 18px;
+
+    width: 17%;
+    height: 25%;
+
+    border: none;
+    border-radius: 15px;
+
+}
+
+button:hover{
+    font-weight: bolder;
+}
+
+.labelEstilo {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+input {
+    font-size: 35px;
+    margin-left: 5%;
+    height: 50%;
+    width: 80%;
+
+    text-align: center;
+
+    border: none;
+    border-radius: 15px;
+    
+    background-color: azure;
+    
+}
+
+input:hover{
+    font-weight: bolder;
+}
+
